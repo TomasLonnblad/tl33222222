@@ -224,8 +224,8 @@ export const NoiseBackground = ({
         />
       </div>
 
-   
-      <div className={cn("relative z-10", className)}>{children}</div>
+      {/* Content */}
+      <div className={cn("relative z-10", className)}>{children2}</div>
     </div>
   );
 };
