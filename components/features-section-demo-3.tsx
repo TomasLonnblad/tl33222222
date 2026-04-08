@@ -35,7 +35,7 @@ export default function FeaturesSectionDemo() {
     
 
     {
-      title: "Watch our AI on YouTube",
+      title: "Watch our AI on YouTube 3",
       description:
         "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
       skeleton: <SkeletonFour />,
@@ -173,6 +173,7 @@ export const SkeletonFour = () => {
 
 
     <div className="flex justify-center">
+                {/* TODO */}
       <NoiseBackground
         containerClassName="w-fit p-2 rounded-full mx-auto"
         gradientColors={[
@@ -186,6 +187,16 @@ export const SkeletonFour = () => {
         </button>
       </NoiseBackground>
     </div>
+
+
+
+
+
+
+
+
+
+
   );
 };
 
